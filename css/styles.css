@@ -320,8 +320,9 @@ header .studio {
   border: 4px;
 }
 
-.portfolio-buttons {
-  padding-bottom: 0;
+.portfolio-button-section {
+  padding-bottom: 0px;
+  padding-top: 120px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
