@@ -64,24 +64,6 @@ a {
   font-style: normal;
 }
 
-.iris {
-  color: var(--iris);
-  font-family: Raleway;
-  font-size: 18px;
-  line-height: 1.16667em;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  margin-left: 156px;
-}
-.studio {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.16667em;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-
 button {
   cursor: pointer;
 }
@@ -115,15 +97,31 @@ button {
   line-height: 1.16667em;
   font-size: 18px;
   letter-spacing: 0.54px;
-  display: inline-flex;
   height: 24px;
-  align-items: center;
   flex-shrink: 0;
 }
 
 header .studio {
   color: var(--navyblue);
   margin-right: 76px;
+}
+
+.iris {
+  color: var(--iris);
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 1.16667em;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  margin-left: 156px;
+}
+.studio {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16667em;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 
 .nav-link {
@@ -159,7 +157,7 @@ header .studio {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
-  margin-right: 332px;
+  padding-right: 332px;
 }
 
 /* HERO SECTION */
@@ -245,7 +243,6 @@ header .studio {
   align-items: flex-start;
   gap: 8px;
   text-align: left;
-
   justify-content: space-between;
 }
 
@@ -265,9 +262,11 @@ header .studio {
   flex-direction: row;
   align-items: flex-start;
   gap: 24px;
-  flex-wrap: nowrap;
   justify-content: center;
   padding-top: 72px;
+  width: 1128px;
+height: 412px;
+flex-shrink: 0;
 }
 /* TEAM SECTION */
 
@@ -277,11 +276,13 @@ header .studio {
   height: 732px;
   flex-shrink: 0;
   text-align: center;
-  padding-top: 120px;
+
 }
 .team-item-title {
   text-align: center;
 }
+
+.team-title {padding-top: 120px;}
 
 .team-item {
   display: inline-flex;
@@ -314,16 +315,13 @@ header .studio {
 
 .portfolio-nav-list {
   display: inline-flex;
-  align-items: flex-start;
+justify-content: center;
   gap: 24px;
-  margin-left: 427px;
+  padding-left: 427px;
   border: 4px;
 }
 
-.portfolio-button-section {
-  padding-bottom: 0px;
-  padding-top: 120px;
-}
+
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--white);
@@ -377,6 +375,9 @@ header .studio {
   flex-direction: row;
 }
 
+.portfolio-nav-list {
+  padding-bottom: 120px;
+}
 /* FOOTER SECTION */
 
 .footer {
@@ -415,6 +416,6 @@ footer .studio {
   letter-spacing: 0.32px;
   display: flex;
   flex-direction: column;
-  margin-left: 156px;
-  margin-top: 16px;
+  padding-left: 156px;
+ padding-top: 16px;
 }
