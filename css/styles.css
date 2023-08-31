@@ -79,7 +79,6 @@ button {
   flex-direction: row;
   display: flex;
   width: 1440px;
-  height: 72px;
   flex-shrink: 0;
   border-bottom: 1px solid var(--cornflower);
   background: var(--white);
@@ -97,31 +96,16 @@ button {
   line-height: 1.16667em;
   font-size: 18px;
   letter-spacing: 0.54px;
-  height: 24px;
-  flex-shrink: 0;
-}
-
-header .studio {
-  color: var(--navyblue);
   margin-right: 76px;
+  text-transform: uppercase;
 }
 
 .iris {
   color: var(--iris);
-  font-family: Raleway;
-  font-size: 18px;
-  line-height: 1.16667em;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  margin-left: 156px;
+
 }
 .studio {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.16667em;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+  color: var(--navyblue);
 }
 
 .nav-link {
@@ -157,7 +141,7 @@ header .studio {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
-  padding-right: 332px;
+  
 }
 
 /* HERO SECTION */
@@ -165,18 +149,16 @@ header .studio {
 .hero {
   background: var(--navyblue);
   width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
   text-align: center;
+  padding: 188px 0;
 }
 .hero-title {
-  padding-top: 188px;
-  padding-bottom: 48px;
   line-height: 1.07143em;
   color: var(--white);
   text-align: center;
   font-size: 56px;
   letter-spacing: 1.12px;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -237,8 +219,6 @@ header .studio {
 .features-list {
   display: inline-flex;
   width: 1128px;
-  height: 104px;
-  flex-shrink: 0;
   flex-direction: row;
   align-items: flex-start;
   gap: 8px;
@@ -265,29 +245,23 @@ header .studio {
   justify-content: center;
   padding-top: 72px;
   width: 1128px;
-height: 412px;
-flex-shrink: 0;
 }
 /* TEAM SECTION */
 
-.section-team {
+.team {
   background: var(--cloud);
   width: 1440px;
-  height: 732px;
-  flex-shrink: 0;
   text-align: center;
-
 }
+
 .team-item-title {
   text-align: center;
+  padding-top: 32px;
 }
-
-.team-title {padding-top: 120px;}
 
 .team-item {
   display: inline-flex;
-  padding-top: 72px;
-
+  margin-top: 72px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -300,6 +274,7 @@ flex-shrink: 0;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.32px;
+  padding-bottom: 32px;
 }
 
 .team-item-list-image {
@@ -308,14 +283,13 @@ flex-shrink: 0;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  padding-bottom: 32px;
-}
+    }
 
 /* PORTFOLIO SECTION*/
 
 .portfolio-nav-list {
   display: inline-flex;
-justify-content: center;
+  justify-content: center;
   gap: 24px;
   padding-left: 427px;
   border: 4px;
@@ -383,39 +357,27 @@ justify-content: center;
 .footer {
   background: var(--navyblue);
   width: 1440px;
-  height: 312px;
-  flex-shrink: 0;
   padding-top: 100px;
-}
-
-.footer-logo {
-  font-family: Raleway;
-  font-weight: 800;
-  line-height: 1.16667em;
-  font-size: 18px;
-  letter-spacing: 0.54px;
-}
-
-footer .iris .studio {
-  display: flex;
-  width: 44px;
-  height: 21px;
-  flex-direction: column;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.footer,
-footer .studio {
-  color: var(--cloud);
+  padding-bottom: 188px;
 }
 
 .footer-description {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.32px;
-  display: flex;
-  flex-direction: column;
-  padding-left: 156px;
- padding-top: 16px;
+  color: var(--cloud);
+  margin-top: 16px;
 }
+
+  .studio-2 {
+  color: var(--cloud);
+  }
+
+  .footer-logo {
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.16667em;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+  }
