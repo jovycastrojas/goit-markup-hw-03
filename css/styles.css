@@ -78,7 +78,6 @@ button {
 .header {
   flex-direction: row;
   display: flex;
-  width: 1440px;
   flex-shrink: 0;
   border-bottom: 1px solid var(--cornflower);
   background: var(--white);
@@ -148,7 +147,6 @@ button {
 /* Header 1 */
 .hero {
   background: var(--navyblue);
-  width: 1440px;
   text-align: center;
   padding: 188px 0;
 }
@@ -217,40 +215,33 @@ button {
 }
 
 .features-list {
-  display: inline-flex;
-  width: 1128px;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 8px;
+  display: flex;
   text-align: left;
   justify-content: space-between;
+  align-items: center;
+  gap: 24px;
 }
 
 .features-item-title,
 .features-item-description {
-  display: inline-flex;
-  border-width: 264px;
+  display: flex;
   flex-direction: column;
   align-content: center;
-  gap: 8px;
   flex-wrap: nowrap;
   justify-content: center;
 }
 
 .services-list {
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
   gap: 24px;
   justify-content: center;
   padding-top: 72px;
-  width: 1128px;
 }
 /* TEAM SECTION */
 
 .team {
   background: var(--cloud);
-  width: 1440px;
   text-align: center;
 }
 
@@ -260,9 +251,8 @@ button {
 }
 
 .team-item {
-  display: inline-flex;
+  display: flex;
   margin-top: 72px;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 24px;
@@ -288,11 +278,11 @@ button {
 /* PORTFOLIO SECTION*/
 
 .portfolio-nav-list {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   gap: 24px;
-  padding-left: 427px;
   border: 4px;
+  margin-bottom: 120px;
 }
 
 
@@ -323,9 +313,6 @@ button {
 
 .portfolio-title-list {
   display: flex;
-  min-width: 1128px;
-  min-height: 420px;
-  flex-shrink: 0;
   gap: 24px;
   flex-wrap: wrap;
 }
@@ -337,7 +324,6 @@ button {
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
-  flex-shrink: 0;
   border: 1px solid var(--cornflower);
   background: var(--white);
 }
@@ -346,22 +332,16 @@ button {
 .portfolio-item-description {
   gap: 24px;
   display: flex;
-  flex-direction: row;
 }
 
-.portfolio-nav-list {
-  padding-bottom: 120px;
-}
 /* FOOTER SECTION */
 
 .footer {
   background: var(--navyblue);
-  width: 1440px;
-  padding-top: 100px;
-  padding-bottom: 188px;
 }
 
 .footer-description {
+  display: flex;
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.32px;
