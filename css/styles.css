@@ -69,7 +69,7 @@ button {
 }
 
 .section {
-  padding: 120px;
+  padding: 120px 0;
 }
 /* END OF GENERAL STYLES */
 
@@ -236,8 +236,11 @@ button {
   align-items: flex-start;
   gap: 24px;
   justify-content: center;
-  padding-top: 72px;
+  margin-top: 72px;
 }
+
+.services {padding-top: 0;}
+
 /* TEAM SECTION */
 
 .team {
@@ -245,9 +248,14 @@ button {
   text-align: center;
 }
 
+.team-item-title-work {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
 .team-item-title {
   text-align: center;
-  padding-top: 32px;
+  
 }
 
 .team-item {
@@ -264,8 +272,7 @@ button {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.32px;
-  padding-bottom: 32px;
-}
+  }
 
 .team-item-list-image {
   border-radius: 0px 0px 4px 4px;
@@ -313,26 +320,29 @@ button {
 
 .portfolio-title-list {
   display: flex;
-  gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .portfolio-item-image {
   display: flex;
-  width: 360px;
-  height: 420px;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
   border: 1px solid var(--cornflower);
   background: var(--white);
 }
 
-.portfolio-item-title,
-.portfolio-item-description {
-  gap: 24px;
-  display: flex;
+.portfolio-card-content {
+margin: 32px 0px;
+padding: 0px 16px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
 }
+
 
 /* FOOTER SECTION */
 
